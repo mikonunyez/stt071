@@ -29,7 +29,3 @@ length(bar) #number of permutations
 
 ### Question no. 3 ###
 rep(c(1,2,3,"banana"), times=3)
-
-
-### cleanup ###
-p_unload(all)
