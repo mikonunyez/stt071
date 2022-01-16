@@ -1,6 +1,6 @@
 ## Question no. 1 ##
 #
-data <- c(0,-2,1,4,5,6,7,8,-1,3,2,1,1,0,9,10) #saves data as vector with variable name "data"
+data <- c(0,-2,1,4,5,6,7,8,-1,3,2,1,1,0,9,10)
 
 # finds the mean of the data in variable "data"
 result.mean <- mean(data)
@@ -20,7 +20,7 @@ print(result.sort.ascending)
 result.median <- median(data)
 print(result.median)
 
-# find the 3rd quartine
+# find the 3rd quartile
 result.quantile.third <- quantile(data, 0.75)
 print(result.quantile.third)
 
@@ -46,7 +46,5 @@ A <- matrix(c(0,5,-1,1,-2,6,3,0,1,7,2,9,4,8,1,10), nrow=4, byrow=TRUE)
 B <- cbind(c(0,-2,1,4),c(5,6,7,8),c(-1,3,2,1),c(1,0,9,10))
 
 ## utility commands to print both matrices for comparison
-## these are not necessary when using a console but may be needed when 
-## this script is used for automated displays of data where there is no console user
 print(A)
 print(B)
