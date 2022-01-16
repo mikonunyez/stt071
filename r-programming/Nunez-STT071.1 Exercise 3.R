@@ -19,7 +19,6 @@ phyper(2, 9, 6, 4)
 
 
 ### Question no.5 ###
-dnbinom(5, 3, 0.2) #temp
-
+dbinom(3, 5, 0.2)
 
 ### Question no.6 ###
