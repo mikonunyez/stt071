@@ -19,12 +19,10 @@ install.packages("combinat")
 require(combinat)
 
 # 2.a, combination
-foo <- combn(15,4)
-ncol(foo) #number of combinations
+ncol(combn(15,4)) 
 
 # 2.b, permutation
-bar <- permn(10)
-length(bar) #number of permutations
+length(permn(10))
 
 
 ### Question no. 3 ###
