@@ -1,10 +1,10 @@
 ### Question no.1 ###
 # poisson
 
-# a
+# Q1. a
 ppois(2, 3)
 
-#b
+# Q2. b
 ppois(1, 3, lower=FALSE)
 
 
